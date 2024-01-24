@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/circle-task-wac/static/css/main.df9a9ddc.css",
+    "main.js": "/circle-task-wac/static/js/main.f9065f62.js",
+    "static/js/787.73f65708.chunk.js": "/circle-task-wac/static/js/787.73f65708.chunk.js",
+    "static/media/Background2.jpg": "/circle-task-wac/static/media/Background2.9307b1d87f6b252dfb39.jpg",
+    "static/media/background.png": "/circle-task-wac/static/media/background.549f5ad6e51e36ce2010.png",
+    "static/media/fam.png": "/circle-task-wac/static/media/fam.832a79001a7e7b4c77e4.png",
+    "static/media/Component 22.png": "/circle-task-wac/static/media/Component 22.19ee3fa397e019ffa3ea.png",
+    "static/media/Vector.png": "/circle-task-wac/static/media/Vector.a90dc5036025e7c97cda.png",
+    "static/media/girl.png": "/circle-task-wac/static/media/girl.c2748ae2be8986364215.png",
+    "static/media/Man.png": "/circle-task-wac/static/media/Man.4d892fef3f06b5f779ca.png",
+    "static/media/cash.png": "/circle-task-wac/static/media/cash.d3c0e198dd879a521c1a.png",
+    "static/media/kerala.png": "/circle-task-wac/static/media/kerala.9446c9da88463ee2015f.png",
+    "index.html": "/circle-task-wac/index.html",
+    "main.df9a9ddc.css.map": "/circle-task-wac/static/css/main.df9a9ddc.css.map",
+    "main.f9065f62.js.map": "/circle-task-wac/static/js/main.f9065f62.js.map",
+    "787.73f65708.chunk.js.map": "/circle-task-wac/static/js/787.73f65708.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.df9a9ddc.css",
+    "static/js/main.f9065f62.js"
+  ]
+}
