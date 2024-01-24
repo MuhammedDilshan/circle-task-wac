@@ -1,7 +1,16 @@
 @import "../../Styles/global.scss";
 .spotlight {
-  background-image: url(../../Assets/Images/background.png);
   height: 100vh;
+  figure {
+    height: 100vh;
+    width: 100%;
+    display: block;
+    img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+  }
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -12,6 +21,13 @@
     width: 60%;
     color: #fff;
     font-weight: 400;
+    @media (max-width: 980px) {
+      font-size: 56px;
+    }
+    @media (max-width: 640px) {
+      font-size: 36px;
+      width: 80%;
+    }
   }
 
   .enquiry {

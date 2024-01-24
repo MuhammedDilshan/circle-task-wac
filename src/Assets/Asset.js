@@ -4,6 +4,8 @@ import Image2 from "./Images/Component 22.png";
 import Man from "./Images/Man.png";
 import Girl from "./Images/girl.png";
 import Cash from "./Images/cash.png";
+import Background from "./Images/background.png";
+import Background2 from "./Images/Background2.jpg";
 export const assets = {
   Logo,
   Family,
@@ -11,4 +13,6 @@ export const assets = {
   Man,
   Girl,
   Cash,
+  Background,
+  Background2,
 };

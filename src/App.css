@@ -13,3 +13,17 @@
     max-width: 1400px;
     margin: 0 auto;
 }
+
+.swiper-pagination {
+    text-align: left !important;
+    left: 100px !important;
+    bottom: 70px !important;
+}
+
+.swiper-pagination-bullet-active {
+    background: #fff !important;
+}
+
+.swiper-pagination-bullet {
+    background: #ffffff7f !important;
+}

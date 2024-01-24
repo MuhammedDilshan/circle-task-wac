@@ -1,12 +1,22 @@
 @import "../../Styles/global.scss";
 .details {
   padding: 100px 0;
+  @media (max-width: 980px) {
+    padding-bottom: 0;
+  }
   .Wrapper {
     display: flex;
     justify-content: space-between;
+    @media (max-width: 980px) {
+      flex-direction: column;
+    }
   }
   .content_box {
     width: 50%;
+    @media (max-width: 980px) {
+      width: 100%;
+      margin-bottom: 30px;
+    }
     img {
       display: block;
       width: 80px;
@@ -24,6 +34,13 @@
       font-weight: 400;
       text-transform: uppercase;
       max-width: 70%;
+      @media (max-width: 980px) {
+        font-size: 36px;
+      }
+      @media (max-width: 640px) {
+        font-size: 30px;
+        max-width: 100%;
+      }
     }
     .enquiry {
       cursor: pointer;
@@ -50,6 +67,11 @@
     }
   }
   .cards {
+    @media (max-width: 980px) {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
     li {
       background-color: $yellow-color;
       border-radius: 16px;
@@ -58,6 +80,9 @@
       width: 540px;
       height: 230px;
       animation: slide 1s ease forwards;
+      @media (max-width: 640px) {
+        width: 300px;
+      }
       span {
         transform: translateY(-30px) !important;
       }
@@ -76,11 +101,20 @@
       font-size: 64px;
       text-align: right;
       font-weight: 400;
+      @media (max-width: 980px) {
+        font-size: 56px;
+      }
+      @media (max-width: 640px) {
+        font-size: 30px;
+      }
     }
     span {
       font-size: 22px;
       display: block;
       font-weight: 500;
+      @media (max-width: 640px) {
+        font-size: 20px;
+      }
     }
   }
 }
