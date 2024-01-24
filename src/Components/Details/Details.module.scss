@@ -1,0 +1,95 @@
+@import "../../Styles/global.scss";
+.details {
+  padding: 100px 0;
+  .Wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  .content_box {
+    width: 50%;
+    img {
+      display: block;
+      width: 80px;
+      margin-bottom: 20px;
+    }
+    span {
+      font-size: 14px;
+      color: #0092d4;
+      font-weight: 500;
+    }
+    h6 {
+      margin-top: 14px;
+      font-size: 46px;
+      margin-bottom: 20px;
+      font-weight: 400;
+      text-transform: uppercase;
+      max-width: 70%;
+    }
+    .enquiry {
+      cursor: pointer;
+      background-color: $blue-color;
+      border-radius: 4px;
+      padding: 12px 26px;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      font-size: 16px;
+      transition: 0.3s ease;
+      &:hover {
+        background-color: $blue-dark;
+        svg {
+          transform: rotate(90deg);
+        }
+      }
+      svg {
+        width: 20px;
+        height: 20px;
+        transform: rotate(45deg);
+        transition: 0.3s ease;
+      }
+    }
+  }
+  .cards {
+    li {
+      background-color: $yellow-color;
+      border-radius: 16px;
+      padding: 20px;
+      max-width: 540px;
+      width: 540px;
+      height: 230px;
+      animation: slide 1s ease forwards;
+      span {
+        transform: translateY(-30px) !important;
+      }
+    }
+    .Light_blue {
+      background-color: $card-blue-light;
+      color: #fff;
+      transform: translateY(-90px) !important;
+    }
+    .dark_blue {
+      background-color: $blue-dark;
+      color: #fff;
+      transform: translateY(-160px) !important;
+    }
+    h4 {
+      font-size: 64px;
+      text-align: right;
+      font-weight: 400;
+    }
+    span {
+      font-size: 22px;
+      display: block;
+      font-weight: 500;
+    }
+  }
+}
+
+@keyframes slide {
+  0% {
+    transform: translateY(40px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}

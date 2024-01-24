@@ -1,0 +1,61 @@
+@import "../../Styles/global.scss";
+footer {
+  background-color: #0a275b;
+  padding: 80px 0;
+  .Wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  img {
+    width: 30%;
+    margin-bottom: 40px;
+    opacity: 0.5;
+    background-blend-mode: overlay;
+    mix-blend-mode: plus-lighter;
+  }
+  p {
+    font-size: 16px;
+    margin-right: 20px;
+    color: #8d8d8d87;
+    span {
+      color: #fff;
+    }
+  }
+
+  .right_box {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    h6 {
+      display: block;
+      text-align: right;
+      font-size: 16px;
+      color: #8d8d8d87;
+      font-weight: 400;
+      a {
+        color: #8d8d8d87;
+        transition: 0.3s ease;
+        &:hover {
+          color: $blue-color;
+        }
+      }
+    }
+    .contct_box {
+      display: flex;
+      .contact {
+        color: #709be6 !important;
+        display: block;
+        &:last-child {
+          margin-left: 40px;
+        }
+        a {
+          color: #fff;
+          transition: 0.3s ease;
+          &:hover {
+            color: $blue-color;
+          }
+        }
+      }
+    }
+  }
+}

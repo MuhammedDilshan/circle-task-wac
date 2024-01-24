@@ -1,0 +1,54 @@
+@import "../../Styles/global.scss";
+.offer {
+  padding: 0 0 100px 0;
+  .Wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image_box {
+    width: 60%;
+    img {
+      width: 100%;
+      display: block;
+    }
+  }
+  .content_box {
+    width: 50%;
+    margin-left: 80px;
+    h4 {
+      font-size: 46px;
+      width: 70%;
+      font-weight: 500;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 16px;
+      margin-bottom: 20px;
+      width: 60%;
+    }
+    .enquiry {
+      cursor: pointer;
+      background-color: $green-color;
+      border-radius: 4px;
+      padding: 12px 26px;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      font-size: 16px;
+      transition: 0.4s ease-in;
+      &:hover {
+        background-color: $dark-color;
+      }
+      svg {
+        width: 20px;
+        height: 20px;
+        transform: rotate(45deg);
+        transition: 0.3s ease-in;
+      }
+      &:hover svg {
+        transform: rotate(90deg);
+      }
+    }
+  }
+}
